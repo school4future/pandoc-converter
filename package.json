@@ -1,0 +1,15 @@
+{
+  "name": "pandoc-converter",
+  "version": "1.0.0",
+  "description": "Pandoc microservice for converting Markdown to EPUB, DOCX, and PDF (via wkhtmltopdf).",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5"
+  }
+}
